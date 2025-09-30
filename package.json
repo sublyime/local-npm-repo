@@ -2,6 +2,7 @@
   "name": "local-npm-repository-manager",
   "displayName": "Local NPM Repository Manager",
   "description": "Manages a local cache of npm packages to avoid redundant downloads across projects",
+  "publisher": "sublyime",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.104.0"
@@ -9,6 +10,22 @@
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "npm",
+    "package manager",
+    "cache",
+    "local repository",
+    "development tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sublyime/local-npm-repository-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sublyime/local-npm-repository-manager/issues"
+  },
+  "homepage": "https://github.com/sublyime/local-npm-repository-manager#readme",
+  "license": "MIT",
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
